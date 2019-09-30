@@ -3,4 +3,20 @@
 /*}*/
 .bg{
     background-color: burlywood;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.tabel2{
+    background-color: indianred;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.foto1 {
+    border: solid black 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.font{
+    font-size: 18px;
 }
