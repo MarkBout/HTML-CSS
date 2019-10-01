@@ -1,0 +1,27 @@
+.navbar{
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.tekst{
+    border: 5px dotted black;
+    width: 500px;
+    text-align: left;
+}
+
+.fontc {
+    color: white; !important;
+}
+.container{
+    border: 1px solid black;
+}
+
+.tafel{
+    border: 1px solid black;
+}
+
+.box {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
