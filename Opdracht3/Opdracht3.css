@@ -1,22 +1,51 @@
-/*body{*/
-/*    background-color: burlywood;*/
-/*}*/
 .bg{
     background-color: burlywood;
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 20px;
 }
 .tabel2{
     background-color: indianred;
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 20px;
+}
+.tabel3{
+    background-color: cadetblue;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+}
+.foto {
+    border: solid black 10px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 500px;
+    padding: 5px;
+    height: 400px;
+    z-index: -1;
 }
 .foto1 {
-    border: solid black 10px;
-    width: 400px;
-    height: 400px;
-    position: relative;
+    position: absolute;
+    z-index: 0;
+    width: 450px;
+    height: 350px;
 }
 .font{
     font-size: 18px;
+    margin-left: 20px;
+
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+.tabellenbox{
+    border: 5px solid brown;
+    background-color: rgba(0,0,0,0.6);
+    width: 500px;
+    height: 600px;
 }
