@@ -51,5 +51,8 @@ table, th, td {
 .tabellenbox{
     border: 5px solid brown;
     background-color: rgba(0,0,0,0.6);
-    width: 500px;
+    width: 1000px;
+}
+.test{
+    font-weight: bold;
 }
