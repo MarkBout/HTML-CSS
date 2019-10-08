@@ -21,3 +21,20 @@ nav{
 nav a {
     margin-right: 20px;
 }
+div.form-group{
+    width: 325px;
+    padding: 10px;
+}
+input{
+    float: right;
+}
+form #kleur-ogen{
+    margin-left: 110px;
+}
+form #geboortedatum{
+    margin-left: 10px;
+}
+input.knoppen{
+    margin-right: 20px;
+}
+

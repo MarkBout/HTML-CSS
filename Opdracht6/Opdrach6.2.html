@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Opdracht6.2.css">
     <meta charset="UTF-8">
     <title>Burton Education - Aanmelden</title>
 </head>
@@ -17,8 +19,56 @@
         <a href="../Opdracht6/Opdracht6.html">Login</a>
         <a href="../Opdracht6/Opdrach6.2.html">Aanmelden</a>
     </nav>
-    <form action="https://www.savatarian.com/html5/form.php" method="get">
-
+    <h2>Aanmeldformulier</h2>
+    <form action="https://www.savatarian.com/html5/form.php" method="post">
+        <div class="form-group">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" required>
+        </div>
+        <div class="form-group">
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" id="tussenvoegsel">
+        </div>
+        <div class="form-group">
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" required>
+        </div>
+        <div class="form-group">
+            <label id="geslacht">Geslacht</label>
+            <input type="radio" name="geslacht" value="Man">
+            &nbsp;Man
+            <input type="radio" name="geslacht" value="Vrouw">
+            &nbsp;Vrouw
+        </div>
+        <div class="form-group">
+          <label for="kleur-ogen">Kleur ogen</label>
+            <select id="kleur-ogen" required>
+                <option>Groen</option>
+                <option>Bruin</option>
+                <option>Blauw</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="geboortedatum">Geboortedatum</label>
+            <input type="date" id="geboortedatum" required>
+        </div>
+        <div class="form-group">
+            <label for="omschrijving">Omschrijving</label>
+            <textarea rows="4" cols="50" id="omschrijving"></textarea>
+        </div>
+        <div class="form-group">
+            <label id="lekker-eten">Lekker eten:</label><br>
+            <input type="checkbox" name="lekker-eten" value="Sperciebonen">
+            <span class="checkbox">Sperciebonen</span><br>
+            <input type="checkbox" name="lekker-eten" value="Aardappelen">
+            <span class="checkbox">Aardappelen</span><br>
+            <input type="checkbox" name="lekker-eten" value="Hamburger">
+            <span class="checkbox">Hamburger</span>
+        </div>
+        <div class="form-group2">
+            <input type="submit" class="knoppen" value="Verzenden">
+            <input type="reset" class="knoppen" value="Annuleer">
+        </div>
     </form>
 </div>
 </body>
