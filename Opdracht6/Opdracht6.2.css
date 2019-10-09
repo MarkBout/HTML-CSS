@@ -6,9 +6,9 @@ body{
     line-height: 25px;
 }
 
-.container, footer {
+.container {
     margin: auto;
-    width: 1500px;
+    width: auto;
     background-color: rgb(251,235,235);
     padding: 20px;
 }
@@ -37,4 +37,6 @@ form #geboortedatum{
 input.knoppen{
     margin-right: 20px;
 }
-
+form.knoppen, input.knoppen{
+    display: inline;
+}
