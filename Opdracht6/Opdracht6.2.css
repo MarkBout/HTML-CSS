@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
+    align-self: center;
 }
 body{
     font-family: "Arial", "sans-serif";
-    line-height: 25px;
 }
 
 .container {
@@ -21,22 +21,36 @@ nav{
 nav a {
     margin-right: 20px;
 }
-div.form-group{
-    width: 325px;
-    padding: 10px;
+form{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 4fr;
 }
-input{
-    float: right;
+h2{
+    grid-column: 1/5;
 }
-form #kleur-ogen{
-    margin-left: 110px;
+.eten{
+    display: flex;
+    grid-column: 4/5;
 }
-form #geboortedatum{
+.eten label{
     margin-left: 10px;
 }
-input.knoppen{
-    margin-right: 20px;
+.textboks{
+    width: 300px;
+    margin-bottom: 10px;
+    border: solid 1px cornflowerblue;
 }
-form.knoppen, input.knoppen{
-    display: inline;
+.primeline{
+    grid-column: 1/2;
+}
+#discription{
+    grid-column: 2/3;
+    margin-top: 20px;
+    height: 100px;
+}
+.knoppen{
+    grid-column: 4/5;
+    text-align: right;
+    position: relative;
+    top: 40px;
 }

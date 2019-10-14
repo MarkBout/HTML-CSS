@@ -19,57 +19,64 @@
         <a href="../Opdracht6/Opdracht6.html">Login</a>
         <a href="../Opdracht6/Opdrach6.2.html">Aanmelden</a>
     </nav>
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+
     <h2>Aanmeldformulier</h2>
-    <form action="https://www.savatarian.com/html5/form.php" method="get">
-        <div class="form-group">
-            <label for="voornaam">Voornaam</label>
-            <input type="text" id="voornaam" required>
-        </div>
-        <div class="form-group">
-            <label for="tussenvoegsel">Tussenvoegsel</label>
-            <input type="text" id="tussenvoegsel">
-        </div>
-        <div class="form-group">
-            <label for="achternaam">Achternaam</label>
-            <input type="text" id="achternaam" required>
-        </div>
-        <div class="form-group knoppen">
-            <label class="">Geslacht</label>
-            <input type="radio" name="geslacht" class="knoppen" value="Man">
-            &nbsp;Man
-            <input type="radio" name="geslacht" class="knoppen" value="Vrouw">
-            &nbsp;Vrouw
-        </div>
-        <div class="form-group">
-          <label for="kleur-ogen">Kleur ogen</label>
-            <select id="kleur-ogen" required>
-                <option>Groen</option>
-                <option>Bruin</option>
-                <option>Blauw</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="geboortedatum">Geboortedatum</label>
-            <input type="date" id="geboortedatum" required>
-        </div>
-        <div class="form-group">
-            <label for="omschrijving">Omschrijving</label>
-            <textarea rows="4" cols="50" id="omschrijving"></textarea>
-        </div>
-        <div class="form-group">
-            <label id="lekker-eten">Lekker eten:</label><br>
-            <input type="checkbox" name="lekker-eten" value="Sperciebonen">
-            <span class="checkbox">Sperciebonen</span><br>
-            <input type="checkbox" name="lekker-eten" value="Aardappelen">
-            <span class="checkbox">Aardappelen</span><br>
-            <input type="checkbox" name="lekker-eten" value="Hamburger">
-            <span class="checkbox">Hamburger</span>
-        </div>
-        <div class="form-group2">
-            <input type="submit" class="knoppen" value="Verzenden">
-            <input type="reset" class="knoppen" value="Annuleer">
-        </div>
-    </form>
+    <label for="voornaam">Voornaam</label>
+    <input class="textboks" type="text" name="voornaam" id="voornaam" required>
+
+    <label>Lekker eten</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Sperzibonen</label>
+    </div>
+
+    <label for="tussemvoegsel">Tussemvoegsel</label>
+    <input class="textboks" type="text" name="tussemvoegsel" id="tussemvoegsel">
+
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aardappelen</label>
+    </div>
+
+    <label for="achternaam">Achternaam</label>
+    <input class="textboks" type="text" name="achternaam" id="achternaam" required>
+
+    <div class="eten" >
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+
+    <label for="geslacht">Geslacht</label>
+    <div id="geslacht">
+        <input type="radio" name="geslacht" value="m">
+        <label>Man</label>
+        <input type="radio" name="geslacht" value="v" >
+        <label>Vrouw</label>
+    </div>
+    <div class="primeline">
+    <label>Kleur ogen</label></div>
+    <select required>
+        <option>Groen</option>
+        <option>Blauw</option>
+        <option>Bruin</option>
+    </select>
+
+
+    <div class="primeline">
+        <label for="geboortedatum">Geboortedatum</label>
+    </div>
+    <input type="date" name="geboortedatum" id="geboortedatum" required>
+
+    <label class="primeline" for="discription">Omschrijving</label>
+    <textarea id="discription"></textarea>
+
+    <div class="knoppen">
+        <input type="reset" value="Reset">
+        <input type="submit" value="Ok">
+    </div>
+</form>
+
 </div>
 </body>
 </html>
